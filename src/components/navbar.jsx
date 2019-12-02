@@ -1,8 +1,8 @@
 import React from 'react';
 import $ from 'jquery';
 
-import logo1 from '../img/cassi_logo_white.png';
-import logo2 from '../img/cassi_logo_white.png';
+import logo1 from '../img/logo2wt.png';
+import logo2 from '../img/logo2.jpg';
 
 class Navbar extends React.Component{
     constructor(){
@@ -69,33 +69,36 @@ class Navbar extends React.Component{
     render(){
         return (
             <nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-                <div className="container">
-                    <a className="navbar-brand js-scroll" href="#home"><img src={this.state.logo} alt="logo" style={{maxWidth: "100px"}}/></a>
-                    <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-                    aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation" onClick={this.handleClick}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                    <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
-                        <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll active" href="#home">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll" href="#about">About Us</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll" href="#work">Our Services</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link js-scroll" href="#contact">Contact Us</a>
-                        </li>
-                        </ul>
-                    </div>
-                </div>
+            <div className="container">
+            <a className="navbar-brand js-scroll" href="#home"><img src={this.state.logo} alt="logo" style={{maxWidth: "100px"}}/></a>
+            <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+            aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation" onClick={this.handleClick}>
+            <span></span>
+            <span></span>
+            <span></span>
+            </button>
+            <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
+            <ul className="navbar-nav">
+            <li className="nav-item">
+            <a className="nav-link js-scroll active" href="#home">Home</a>
+            </li>
+            <li className="nav-item">
+            <a className="nav-link js-scroll" href="#work">Our Services</a>
+            </li>
+            <li className="nav-item">
+            <a className="nav-link js-scroll" href="#partners">Our Partners</a>
+            </li>
+            <li className="nav-item">
+            <a className="nav-link js-scroll" href="#about">About Us</a>
+            </li>
+            <li className="nav-item">
+            <a className="nav-link js-scroll" href="#contact">Contact Us</a>
+            </li>
+            </ul>
+            </div>
+            </div>
             </nav>
-        );
+            );
     }
 }
 

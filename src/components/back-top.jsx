@@ -7,7 +7,7 @@ class BackToTop extends React.Component {
         $('.back-to-top').click(function(){
             $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
             return false;
-          });
+        });
         window.addEventListener('scroll', ()=>{
             if(window.pageYOffset > 100){
                 document.querySelector('.back-to-top').classList.remove("fadeOut");

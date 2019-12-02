@@ -24,16 +24,20 @@ import Navbar from './components/navbar.jsx';
 import Intro from './components/intro.jsx';
 import About from './components/about.jsx';
 import Services from './components/services.jsx';
+import Partners from './components/partners.jsx'
 import Contact from './components/contact.jsx';
 import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
+import Tools from './components/tools.jsx';
 
 ReactDOM.render(
 	<React.Fragment>
-		<Navbar />
+	<Navbar />
         <Intro />
-        <About />
         <Services />
+        <Partners/>
+        <Tools/>
+        <About />
         <Contact />
         <BackToTop />
         <Preloader />
