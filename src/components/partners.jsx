@@ -6,6 +6,7 @@ import inventwork from "../img/inventwor.png";
 import fiverr from "../img/fiverr.png";
 import imageOverlay from "../img/energy.jpg";
 import dventus from "../img/dventus.jpg";
+import mint from "../img/mint.png";
 
 
 class Services extends React.Component{
@@ -60,6 +61,14 @@ class Services extends React.Component{
       <div className="work-box">
       <div className="about-img" style={{textAlign: "center"}}>
       <img src={dventus} className="img-fluid rounded b-shadow-a" alt=""/>
+      </div>
+      </div>
+      </div>
+
+      <div className="col-md-4">
+      <div className="work-box">
+      <div className="about-img" style={{textAlign: "center"}}>
+      <img src={mint} className="img-fluid rounded b-shadow-a" alt=""/>
       </div>
       </div>
       </div>

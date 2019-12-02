@@ -88,9 +88,16 @@ class Services extends React.Component{
       <div className="work-content">
       <div className="row">
       <div className="col-sm-12">
-      <h2 className="w-title">Electrical and Electronics Engineering Service</h2>
+      <h2 className="w-title">Electrical Engineering Service</h2>
       <div className="w-more">
-    <span className="w-ctegory">Electronics Design, PCB and Schematcs Design, Engineering Consultancy</span> {/*/ <span className="w-date">18 Sep. 2018</span>*/}
+    <span className="w-ctegory">Design services for electronic cards and embedded systems, 
+                                from feasibility study to manufacturing. Thanks to our experience and a great technical expertise, 
+                                we carry out the most complex projects. We create specifications, diagrams, circuit schematics, 
+                                PCB designs and either for a single circuit or a complex system. We can build prototypes to test and 
+                                validate the product’s concept and help their customer deliver products to their customers. Our designs 
+                                are customized to meet the specific needs of each test application (high frequency, high temperature, 
+                                low leakage, parametric test, parallel multi-DUT test …). Circuit simulation services for electronic cards design 
+                                validation in high frequency applications. Design Review and quality check.</span> 
     </div>
     </div>
     <div className="col-sm-4">
@@ -174,7 +181,7 @@ class Services extends React.Component{
     </div>
     </div>
     </a>
-    <a href={it1} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
+    <a href={robo} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
     </div>
     </div>
 
