@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from "../img/logo2.jpg";
 import imageOverlay from "../img/energy.jpg";
 
 class About extends React.Component{
@@ -26,46 +25,16 @@ class About extends React.Component{
         return (
             <section id="about" className="paralax-mf footer-paralax bg-image sect-mt4 route" style={{backgroundImage: "url("+imageOverlay+")"}}>
             <div className="container">
-            <div className="row">
-            <div className="col-sm-12">
+            
+            <div className="col-sm-12 ">
             <div className="box-shadow-full">
-            <div className="row">
-            <div className="col-md-6">
-            <div className="row">
-            <div className="col-md-20">
-            <div className="col-sm-6 col-md-5 work-box" style={{margin: "1 auto"}}>
-            <div className="about-img" style={{textAlign: "center"}}>
-            <img src={logo} className="img-fluid rounded b-shadow-a" alt=""/>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div className="skill-mf">
-            <div className="title-box-2">
-            <h5 className="title-left">
-            Engineering Skills
-            </h5>
-            </div>
-            {
-                this.state.skills.map(skill => {
-                    return(
-                        <React.Fragment key={skill.id}>
-                        <span>{skill.content}</span> <span className="pull-right">{skill.porcentage}</span>
-                        <div className="progress">
-                        <div className="progress-bar" role="progressbar" style={{width: skill.porcentage}} aria-valuenow={skill.value} aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        </React.Fragment>
-                        );
-                })
-            }
-            </div>
-            </div>
-            <div className="col-md-6">
+            <div className="col-md-12">
             <div className="about-me pt-4 pt-md-0">
-            <div className="title-box-2">
-            <h5 className="title-left">
+            <div className="title-box text-center">
+            <h3 className="title-a">
             About Us
-            </h5>
+            </h3>
+            <div className="line-mf"></div>
             </div>
             {
                 this.state.about_us.map((content) => {
@@ -76,8 +45,7 @@ class About extends React.Component{
             </div>
             </div>
             </div>
-            </div>
-            </div>
+
             </div>
             </section>
             );
