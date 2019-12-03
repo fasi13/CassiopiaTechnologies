@@ -76,7 +76,9 @@ class Contact extends React.Component{
             </div>
             <div className="more-info">
             <p className="lead">
-            <p><strong>Tell:</strong> +251911368761</p>
+            <p><strong>Address:</strong> Jackros Addis Ababa,Ethiopia</p>
+            <p><strong>P.O.Box:</strong> 1784/1110</p>
+            <p><strong>Tell:</strong> +25120186065</p>
             <p><strong>email:</strong> cassiopeiatechnologies@gmail.com</p>
             </p>
 

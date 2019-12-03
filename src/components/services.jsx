@@ -19,7 +19,7 @@ import Mech4 from "../img/Mech4.jpg";
 import Mech5 from "../img/Mech5.jpg";
 import it1 from "../img/IT_1.png";
 //software
-import robo from "../img/robo.jpg";
+import software from "../img/software.jpg";
 
 
 class Services extends React.Component{
@@ -187,16 +187,17 @@ class Services extends React.Component{
 
      <div className="col-md-4">
     <div className="work-box">
-    <a href={robo} data-lightbox="gallery-aguadeluz">
+    <a href={software} data-lightbox="gallery-aguadeluz">
     <div className="work-img">
-    <img src={robo} alt="" className="img-fluid"/>
+    <img src={software} alt="" className="img-fluid"/>
     </div>
     <div className="work-content">
     <div className="row">
     <div className="col-sm-12">
     <h2 className="w-title">Software Development</h2>
     <div className="w-more">
-    <span className="w-ctegory">Full stack Web page development, firmware Engineering 
+    <span className="w-ctegory">Our software development is headed by system architects of exceptional ability and experience. This is where good software begins and ends.
+                              we provide service like full stack web development, firmware development and application development.
     </span> 
     </div>
     </div>
@@ -208,7 +209,7 @@ class Services extends React.Component{
     </div>
     </div>
     </a>
-    <a href={robo} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
+    <a href={software} data-lightbox="gallery-aguadeluz" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
     </div>
     </div>
 
