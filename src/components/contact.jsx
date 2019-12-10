@@ -79,7 +79,7 @@ class Contact extends React.Component{
             <p><strong>Address:</strong> Jackros Addis Ababa, Ethiopia</p>
             <p><strong>P.O.Box:</strong> 1788/1011</p>
             <p><strong>Tell:</strong> +251920186065</p>
-            <p><strong>email:</strong> cassiopeiatechnologies@gmail.com</p>
+            <p><strong>email:</strong> cassiopeia.etech@gmail.com</p>
             </p>
 
             </div>
