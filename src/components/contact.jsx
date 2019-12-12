@@ -88,7 +88,7 @@ class Contact extends React.Component{
             <ul>
             <li>
             <a href="https://www.facebook.com/Cassiopeia-Technologies-PLC-110255637058687" target="_blank" rel="noopener noreferrer"><span className="ico-rounded"><ion-icon name="logo-facebook" size = "large"></ion-icon></span></a></li>
-            <li><a href="https://www.google.com" target="_blank" rel="noopener noreferrer"><span className="ico-rounded"><ion-icon name="logo-linkedin" size = "large"></ion-icon></span></a></li>
+            <li><a href="https://www.linkedin.com/company/29278291/admin/" target="_blank" rel="noopener noreferrer"><span className="ico-rounded"><ion-icon name="logo-linkedin" size = "large"></ion-icon></span></a></li>
         {/*<li><a href="https://www.google.com/" target="_blank" rel="noopener noreferrer"><span className="ico-rounded"><ion-icon name="mail" size = "large"></ion-icon></span></a></li>*/}
         </ul>
         </div>
